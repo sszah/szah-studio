@@ -9,7 +9,7 @@ import Services from '../components/Services';
 
 function App() {
   return (
-    <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
+    <div className='bg-site bg-no-repeat bg-cover overflow-hideen'>
       <About/>
       <Banner/>
       <Contact/>
@@ -17,6 +17,7 @@ function App() {
       <Navbar/>
       <Projects/>
       <Services/>
+      <div className='h-[4000px]'></div>
     </div>
   );
 }
