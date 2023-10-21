@@ -1,7 +1,12 @@
 import React from 'react'
+import { BiHomeAlt, BiUser } from 'react-icons/bi';
+import { BsClipboardData, BsBriefcase, BsChatSquare } from 'react-icons/bi';
+import { Link } from 'react-scroll';
 
-export default function Navbar() {
+function Navbar() {
   return (
     <div>Navbar</div>
   )
 }
+
+export default  Navbar;
