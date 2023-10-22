@@ -10,13 +10,13 @@ import Services from '../components/Services';
 function App() {
   return (
     <div>
-      <About/>
-      <Banner/>
-      <Contact/>
       <Header/>
-      <Navbar/>
-      <Projects/>
+      <Banner/>
+      <About/>
       <Services/>
+      <Projects/>
+      <Contact/>
+      <Navbar/>
     </div>
   );
 }

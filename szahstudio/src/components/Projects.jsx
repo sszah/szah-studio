@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function Projects() {
+const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className='section' id='work'>Projects</div>
   )
 }
+
+export default Projects;
