@@ -1,13 +1,8 @@
 import React from 'react'
-//images
 import Image from '../assets/pp.png';
-// icons
 import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
-// animation
 import { TypeAnimation } from 'react-type-animation'
-// motion
 import { motion } from 'framer-motion'
-// variants
 import { fadeIn } from '../variant';
 
 const Banner = () => {
@@ -46,6 +41,7 @@ const Banner = () => {
                   repeat={Infinity}
                 />
             </motion.div>
+            
             <motion.p
               variants={fadeIn('up', 0.4)}
               initial='hidden'
