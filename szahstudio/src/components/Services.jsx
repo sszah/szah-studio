@@ -27,9 +27,10 @@ const Services = () => {
       <div className='container mx-auto'>
         <div>
           {/* text & image */}
-          <div>
+          <div className='flex-1 lg:bg-services lg:bg-bottom'>
             <h2 className='h2 text-accent mb-6'>What I Do</h2>
             <h3 className='h3 max-w-[455px] mb-16'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel ante vel orci luctus venenatis. Nunc fringilla, tortor sit amet sodales imperdiet, erat leo congue libero</h3>
+            <button className='btn btn-sm'>See My Work</button>
           </div>
           {/* services */}
           <div>services</div>
