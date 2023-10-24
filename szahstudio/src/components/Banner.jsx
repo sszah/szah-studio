@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from '../assets/pp.png';
+import Image from '../assets/logo.png';
 import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
@@ -48,7 +48,6 @@ const Banner = () => {
               whileInView={'show'}
               viewport={{once: false, amount: 0.7}} 
               className='mb-5 max-w-lg mx-auto lg:mx-0'>
-              I'm a 7th-semester Information Systems student. Proficient in Canva and Figma, I've harnessed these tools to craft captivating designs for social media and applications. 
               My portfolio showcases a collection of creative and impactful design projects, reflecting my commitment to continuous improvement in the world of design.
             </motion.p>
 
@@ -82,13 +81,13 @@ const Banner = () => {
             </motion.div>
           </div>
 
-          {/* image */}
+          {/* images */}
           <motion.div 
             variants={fadeIn('down', 0.5)}
             initial='hidden'
             whileInView={'show'}
             className='hidden lg:flex flex-1 max-w-[450px] lg-max-w-[450px]'>
-            <img src={Image} alt="profpic" />
+            <img src={Image} alt="logo"/>
           </motion.div>
         </div>
       </div>
