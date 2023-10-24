@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <section className='section' id='work'>
       <div className='container mx-auto'>
-        <div>
+        <div className='flex flex-col lg:flex-row gap-x-10'>
         <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
           {/* text */}
           <div>
@@ -31,12 +31,12 @@ const Projects = () => {
               className='group-hover:scale-125 transition-all duration-500'
               src={Img1} alt="project1" />
             {/* pretitle */}
-            <div className='absolute bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className='text-gradient'>UI/UX Design</span>
               </div>
             {/* title */}
-            <div className='absolute bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3x1 text-white'>Project Title</span>
+            <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+              <span>Text</span>
             </div>
           </div>
         </div>
