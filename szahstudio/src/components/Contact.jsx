@@ -16,26 +16,26 @@ const Contact = () => {
           </div>
 
           {/* form */}
-        <form className='flex-1 border rounded-2x1 flex flex-col gap-y-6 pb-12 p-6 items-start'>
-          <input 
-            className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
-            type="text" 
-            placeholder='Your Name'
-          />
+          <form className='flex-1 border rounded-2x1 flex flex-col gap-y-6 pb-12 p-6 items-start'>
+            <input 
+              className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
+              type="text" 
+              placeholder='Your Name'
+            />
 
-          <input 
-            className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
-            type="text" 
-            placeholder='Your Email'
-          />
+            <input 
+              className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
+              type="text" 
+              placeholder='Your Email'
+            />
 
-          <textarea 
-            className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12'
-            placeholder='Your Message'
-          ></textarea>
-          <button className='btn btn-lg'>Send Message</button>
-        </form>
-      </div>
+            <textarea 
+              className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12'
+              placeholder='Your Message'
+            ></textarea>
+            <button className='btn btn-lg'>Send Message</button>
+          </form>
+        </div>
       </div>
     </section>
   )
