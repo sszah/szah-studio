@@ -32,7 +32,7 @@ const Banner = () => {
                   sequence={[
                     'Graphic Designer',
                     2000,
-                    'Developer',
+                    '',
                     2000,
                   ]}
                   speed={50}
@@ -69,13 +69,13 @@ const Banner = () => {
               whileInView={'show'}
               viewport={{once: false, amount: 0.7}} 
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href="#">
+              <a href="https://www.instagram.com/szah10/">
                 <FaInstagram/>
               </a>
-              <a href="#">
+              <a href="https://github.com/sszah ">
                 <FaGithub/>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/szah/">
                 <FaLinkedin/>
               </a>
             </motion.div>
