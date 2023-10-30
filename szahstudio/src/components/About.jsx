@@ -34,7 +34,6 @@ const About = () => {
           >
             <h2 className='h2 text-accent'>About Me</h2>
             <h3 className='h3 mb-2'>I'm a 7th-semester Information Systems student. Proficient in Canva and Figma, I've harnessed these tools to craft captivating designs for social media and applications.</h3>
-            <p className='mb-4'>text</p>
           
           {/* number */}
           <div className='flex gap-x-1 lg:gap-x-10 mb-12'>
@@ -50,7 +49,7 @@ const About = () => {
 
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {inView ? <CountUp start={0} end={35} duration={2}/> : null}
+                {inView ? <CountUp start={0} end={15} duration={2}/> : null}
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
                 Projects <br />

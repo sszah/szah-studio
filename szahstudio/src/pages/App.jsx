@@ -5,9 +5,8 @@ import Contact from '../components/Contact';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Projects from '../components/Projects';
-import Services from '../components/Services';
-import InputProject from '../components/Inputproject';
-import Projek from '../components/projek';
+import Tools from '../components/Tools';
+import Review from '../components/Review';
 
 function App() {
   return (
@@ -15,10 +14,10 @@ function App() {
       <Header/>
       <Banner/>
       <About/>
-      <Services/>
+      <Tools/>
       <Projects/>
+      <Review/>
       <Contact/>
-      <Projek/>
       <Navbar/>
     </div>
   );

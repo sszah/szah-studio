@@ -3,24 +3,23 @@ import { BsArrowUpRight } from 'react-icons/bs';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variant';
 
-const services = [
+const tools = [
   {
     name: 'Figma',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel ante vel orci luctus venenatis. Nunc fringilla.',
-    link: 'Learn More',
+    description: 'Figma is the leading collaborative design tool for building meaningful products.',
   },
   {
     name: 'Canva',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel ante vel orci luctus venenatis. Nunc fringilla.',
-    link: 'Learn More',
+    description: 'Canva is a free-to-use online graphic design tool. Use it to create social media posts, presentations, posters, videos, logos and more.',
   },  
 ];
 
-const Services = () => {
+const Tools = () => {
   return (
-    <section className='section' id='services'>
+    <section className='section' id='tools'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
+          
           {/* text */}
           <motion.div 
             variants={fadeIn('right', 0.3)}
@@ -43,7 +42,7 @@ const Services = () => {
           >
             {/* tools list */}
             <div>
-              {services.map((service, index) => {
+              {tools.map((service, index) => {
                 const { name, description, link } = service;
                 return (
                 <div 
@@ -54,10 +53,10 @@ const Services = () => {
                     <p className='font-secondary leading-tight'>{description}</p>
                   </div>
                   <div className='flex flex-col flex-1 items-end'>
-                    <a href="#" className='btn w-10 h-6 mb-[43px] flex justify-center items-center'>
+                    <a href="https://www.figma.com/about/" className='btn w-10 h-6 mb-[43px] flex justify-center items-center'>
                       <BsArrowUpRight />
                     </a>
-                    <a href="#" className='text-gradient text-sm'>{link}</a>
+                    <a href="https://www.canva.com/about/" className='text-gradient text-sm'>{link}</a>
                   </div>
                 </div> 
                 );
@@ -70,4 +69,4 @@ const Services = () => {
   )
 }
 
-export default Services;
+export default Tools;

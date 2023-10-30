@@ -1,13 +1,13 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variant';
-import P1 from '../assets/P1.png';
-import P2 from '../assets/P2.png';
-import P3 from '../assets/P3.png';
+import R1 from '../assets/R1.png';
+import R2 from '../assets/R2.png';
+import R3 from '../assets/R3.png';
 
 const Projects = () => {
   return (
-    <section className='section' id='work'>
+    <section className='section' id='review'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row gap-x-10'>
           <motion.div 
@@ -19,10 +19,10 @@ const Projects = () => {
             {/* text */}
             <div>
               <h2 className='h2 leading-tight text-accent'>
-                My Latest <br />Work
+                Here For <br />Some Review!
               </h2>
-              <h3 className='h3 max-w-[590px] mb-16'>
-              Discover my recent work showcased in the projects below.
+              <h3 className='h3 max-w-[590px] mb-5'>
+                Discover what others are saying about my products and services in my Testimonials section.
               </h3>
               <button className='btn btn-sm'>View All Project</button>
             </div>
@@ -31,7 +31,7 @@ const Projects = () => {
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
-              <img className='group-hover:scale-125 transition-all duration-500' src={P1} alt="project1" />
+              <img className='group-hover:scale-125 transition-all duration-500' src={R1} alt="project1" />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient'>UI/UX Design</span>
@@ -54,7 +54,7 @@ const Projects = () => {
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
-              <img className='group-hover:scale-125 transition-all duration-500' src={P2} alt="project1" />
+              <img className='group-hover:scale-125 transition-all duration-500' src={R2} alt="project1" />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient'>Insta Feeds</span>
@@ -69,7 +69,7 @@ const Projects = () => {
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
-              <img className='group-hover:scale-125 transition-all duration-500' src={P3} alt="project1" />
+              <img className='group-hover:scale-125 transition-all duration-500' src={R3} alt="project1" />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient'>Package Design</span>

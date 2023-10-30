@@ -11,6 +11,7 @@ function Projects() {
       status: 'In Progress',
       image: 'https://via.placeholder.com/150',
     },
+    
     {
       id: 2,
       name: 'Project 2',

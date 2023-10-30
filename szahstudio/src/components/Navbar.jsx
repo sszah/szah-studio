@@ -1,6 +1,7 @@
 import React from 'react'
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
-import { BsClipboardData, BsBriefcase, BsChatSquareDotsFill } from 'react-icons/bs';
+import { BsClipboardData, BsBriefcase, BsChatSquareDotsFill, BsEyeFill } from 'react-icons/bs';
+import { FaStar } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -28,7 +29,7 @@ const Navbar = () => {
           </Link>
           
           <Link 
-            to='services' 
+            to='tools' 
             activeClass='active' 
             smooth={true}
             spy={true}
@@ -45,6 +46,15 @@ const Navbar = () => {
             <BsBriefcase/>
           </Link>
           
+          <Link 
+            to='review' 
+            activeClass='active' 
+            smooth={true}
+            spy={true}
+            className='cursor-pointer w-[60px] h-[60-px] flex items-center justify-center'>
+            <FaStar/>
+          </Link>
+
           <Link 
             to='contact' 
             activeClass='active' 
