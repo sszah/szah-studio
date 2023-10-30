@@ -32,14 +32,6 @@ const Projects = () => {
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
               <img className='group-hover:scale-125 transition-all duration-500' src={R1} alt="project1" />
-              {/* pretitle */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
-              </div>
-              {/* title */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3x1 text-white'>Re-design UI &  Added features to the Krealogy application</span>
-              </div>
             </div>
           </motion.div>
 
@@ -55,14 +47,6 @@ const Projects = () => {
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
               <img className='group-hover:scale-125 transition-all duration-500' src={R2} alt="project1" />
-              {/* pretitle */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>Insta Feeds</span>
-              </div>
-              {/* title */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3x1 text-white'>Nusantara x Jurnal Festival 2023</span>
-              </div>
             </div>
             
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
@@ -70,14 +54,6 @@ const Projects = () => {
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
               <img className='group-hover:scale-125 transition-all duration-500' src={R3} alt="project1" />
-              {/* pretitle */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>Package Design</span>
-              </div>
-              {/* title */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3x1 text-white'>Posters, X-Banner</span>
-              </div>
             </div>
             
           </motion.div>
