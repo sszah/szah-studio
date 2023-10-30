@@ -7,6 +7,7 @@ import Navbar from '../components/Navbar';
 import Projects from '../components/Projects';
 import Services from '../components/Services';
 import InputProject from '../components/Inputproject';
+import Projek from '../components/projek';
 
 function App() {
   return (
@@ -17,9 +18,8 @@ function App() {
       <Services/>
       <Projects/>
       <Contact/>
-      <InputProject/>
+      <Projek/>
       <Navbar/>
-
     </div>
   );
 }

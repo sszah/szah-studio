@@ -214,7 +214,7 @@ function Projects() {
         />
         <button
           onClick={addProject}
-          className='btn btn-sm'
+          className="bg-purple-600 hover:bg-purple-800 text-white p-3 rounded-md transition-transform hover:scale-105"
         >
           {editProject ? 'Update' : 'Add'}
         </button>

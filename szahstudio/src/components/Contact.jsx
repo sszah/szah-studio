@@ -7,9 +7,12 @@ const Contact = () => {
     <section className='py-16 lg:section' id='contact'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
+          
           {/* text */}
           <div className='flex-1'>
-            <div>
+            <div 
+              variants
+            >
               <h4 className='text-xl uppercase text-accent font-medium mb-2 tracking-wide'>Get In Touch</h4> 
               <h2 className='text-[45px] lg:text-[90px] leading-none mb-12'>Let's Work <br /> Together!</h2>
             </div>
