@@ -52,7 +52,7 @@ const Projects = () => {
             </div>
 
             <button 
-                onClick={() => navigate('/try')}
+                onClick={() => navigate('/input')}
                 className='btn btn-sm'>
                 Add Project
             </button>
