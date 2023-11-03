@@ -7,6 +7,7 @@ const Contact = () => {
     name:'',
     email: '',
     message: '',
+    
   });
 
   const handleInputChange = (e) => {

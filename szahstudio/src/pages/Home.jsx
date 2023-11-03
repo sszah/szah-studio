@@ -8,7 +8,7 @@ import Projects from '../components/Projects';
 import Tools from '../components/Tools';
 import Review from '../components/Review';
 
-function App() {
+function Home() {
   return (
     <div>
       <Header/>
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
